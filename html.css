@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantainer {
+    width: 60%;
+    height: 85vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-1 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(25,119,241);
+}
+
+p {
+ font-weight: 600;
+}
+
+
+.form {
+    width: 40%;
+    height: 45vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 50px;
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+input {
+    outline: none;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 6vh;
+    padding: 10px;
+
+}
+
+.in {
+    margin-bottom: 20px;
+}
+
+
+
+.input-1 button {
+    width: 300px;
+    height: 5vh;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: rgb(25,119,241);
+    border: none;
+    color: white;
+
+}
+
+.input-1 a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.line {
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input-1 .btn {
+    width: 85%;
+    background-color: rgb(74, 211, 53);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
